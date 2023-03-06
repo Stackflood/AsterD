@@ -1,0 +1,15 @@
+import React from 'react';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import FindMovies from '../../containers/screens/movies/FindMovies';
+
+const Stack = createNativeStackNavigator();
+
+const AuthNavigator = () => {
+  return (
+    <Stack.Navigator initialRouteName="Movies">
+      <Stack.Screen name="Movies" component={FindMovies} />
+    </Stack.Navigator>
+  );
+};
+
+export default AuthNavigator;

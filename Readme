@@ -1,0 +1,11 @@
+Please follow the following commands for running the App:
+
+Download or fetch the project to local system (VS code) using git.
+If downloaded, open the project AsterDigital-Main in VS code.
+Open Terminal in VS Code
+Run the command : npm install
+Now go to ios folder using the command : cd ios
+Install pods using the command : pod install
+Go back to the root folder using command : cd ..
+Start the application using the command : npm start
+Choose the appropriate key, i for iOS, a for Android to run the app on the respective emulator.
